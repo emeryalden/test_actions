@@ -17,4 +17,4 @@ jobs:
       - name: Run Ruff Linting
         run: ruff check --output-format=github . --fix
       - name: Run Ruff Formatting
-        run: ruff format --output-format=github .
+        run: ruff format
