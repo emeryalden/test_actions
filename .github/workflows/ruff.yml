@@ -18,3 +18,4 @@ jobs:
         run: ruff check --output-format=github . --fix
       - name: Run Ruff Formatting
         run: ruff format
+      - uses: stefanzweifel/git-auto-commit-action@v5
